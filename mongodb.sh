@@ -1,6 +1,6 @@
 adduser spec
 
-curl -sL https://rpm.nodesource.com/setup_16.x | bash - &>>/temp/mongodb
+curl -sL https://rpm.nodesource.com/setup_16.x | bash -
 echo status = $?
 
 yum install nodejs -y
