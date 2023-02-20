@@ -11,7 +11,7 @@ echo status = $?
 
 cd /home/spec/
 echo status = $?
-git clone https://github.com/ChaitanyaChandra/app.git
+git clone https://github.com/udayayeswar/Mongodb.git
 echo status = $?
 cd app/
 cat package.sh | bash
