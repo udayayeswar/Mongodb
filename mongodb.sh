@@ -11,12 +11,12 @@ systemctl restart mongod
 adduser spec
 
 curl -sL https://rpm.nodesource.com/setup_16.x | bash -
-
 if [$? -eq  0]; then
   echo status = SUCCESS
  else
    echo status = FAILURE
   fi
+
 
 yum install nodejs -y
 if [$? -eq  0]; then
